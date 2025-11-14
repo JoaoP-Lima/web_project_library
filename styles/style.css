@@ -327,7 +327,7 @@
   padding: 0;
   margin: 100px 0 0;
  display: flex;
- justify-content:space-evenly;
+ justify-content:center;
  gap:40px;
 
 }
@@ -365,7 +365,6 @@
 
 .footer__columns {
   display: flex;
-  gap: 80px;
 
 
 
@@ -373,10 +372,7 @@
 
 
 
-}
-.footer__column {
-  justify-content: center;
-  align-items: center;
+
 }
 
 .footer__column_content_hours {
@@ -387,6 +383,10 @@
 
 
 
+}
+
+.footer__column_content_social {
+  margin-left: 80px;
 }
 
 
